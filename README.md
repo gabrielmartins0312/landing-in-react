@@ -1,12 +1,60 @@
-# React + Vite
+# 🌐 Landing Page - Maquineta
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desenvolvida com foco em **performance, responsividade e componentização moderna**, utilizando React, Vite e Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🧪 Running the Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## ✨ Objetivos do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Criar uma landing page visualmente atraente e funcional para a empresa **Maquineta**
+- Aplicar **práticas modernas de componentização**
+- Utilizar **hooks avançados** para comportamento dinâmico
+- Garantir **boas práticas de performance e responsividade**
+
+## 🛠️ Tecnologias Utilizadas
+```
+| Tecnologia     | Função                                |
+|----------------|----------------------------------------|
+| React          | Biblioteca base para construção da UI |
+| Vite           | Ferramenta moderna de bundling e dev server |
+| Tailwind CSS   | Framework CSS utilitário              |
+| React Icons    | Ícones vetoriais leves                |
+| Custom Hooks   | Lógica avançada e reutilizável        |
+```
+
+## 📐 Padrões de Componentização
+
+Este projeto segue uma abordagem modular baseada no Atomic Design (adaptado):
+Nível	Exemplo	Função
+Atom	Button	Componente básico reutilizável
+Molecule	ServiceCard	Combinação de elementos base
+Section	HeroSection	Blocos grandes da UI
+Layout	Header, Footer	Componentes estruturais da aplicação
+
+
+## 🚀 Boas Práticas Aplicadas
+
+💡 Componentes isolados e reutilizáveis
+
+⚡ Build rápido com Vite
+
+📱 Responsividade com Tailwind (md:, lg: etc.)
+
+🧼 Zero CSS manual — tudo com utilitários Tailwind
+
+🧠 Separação clara entre lógica e visual
+
+📦 Importação otimizada de imagens e ícones
+
+🧭 Navegação fluida e UX consistente
+
+
+## 🧑‍💻 Desenvolvido por
+
+Gabriel Martins
+Engenharia de Software • Desenvolvedor Full Stack
+
